@@ -23,7 +23,7 @@ void main() {
 
 	while (1) {
 		printf(" 수식을 입력하세요. (예 : 2 + 3) \n");
-		scanf("%f %c %f", &a, &op, &b);
+		scanf("%f%c%f", &a, &op, &b);
 
 		if (op == '?') break;
 		switch (op) {
