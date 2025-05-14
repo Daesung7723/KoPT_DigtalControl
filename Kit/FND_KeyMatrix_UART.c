@@ -128,7 +128,7 @@ int main(void)
 			}
 			else if(key==2){
 				cnt--;
-				UART1_print_string("[Stop]");
+				UART1_print_string("[Down]");
 			}
 			UART1_print_1_byte_number(cnt);
 			UART1_print_string("\n");
